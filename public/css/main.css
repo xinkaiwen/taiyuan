@@ -1,0 +1,64 @@
+@charset "utf-8";
+*{padding: 0;margin: 0;list-style: none;text-decoration: none;}
+h1{font-size: 30px;font-weight: bolder;}
+#ip1{
+	width: 100%;overflow: hidden;margin-top: 3px;
+}
+#ip1 ul{width: 500%;position: relative;margin-left: -10%;}
+#ip1 ul li{float: left;overflow: hidden;position: relative;
+	height: 500px;width: 25%;background-position: -100px 0;}
+#ip1 ul .lia{background-image: url(../images/11.jpg);}
+#ip1 ul .lib{background-image: url(../images/22.jpg);}
+#ip1 ul .lic{background-image: url(../images/33.jpg);}
+#ip1 ul .lid{background-image: url(../images/44.jpg);}
+#ip1 ul li img{max-width: 100%;display: block;}
+
+#ip2{width: 88%;margin: 0 auto 0 auto;} 
+#ip2 .zjgy{position: relative;width: 50%;float: left;}
+#ip2 .zjgy .zjgy_l .lil{width:67%;float: left;overflow: hidden;margin-right: 0.6%;background-color: red;}
+#ip2 .zjgy .zjgy_l .lir{float: left;width:32%;margin-bottom: 1px;}
+#ip2 .zjgy .zjgy_l img{width: 100%;height: 100%;margin-bottom: -7px;}
+#ip2 .xwzx{position: relative;width: 48%;float: left;margin-left: 2%;}
+#ip2 .xwzx .xwzx_top ul li{float: left;width: 49%;margin-left: 1%;}
+#ip2 .xwzx .xwzx_top ul li img{width: 95%}
+#ip2 .xwzx .xwzx_middle{width: 100%}
+#ip2 .xwzx .xwzx_middle div{float: left;margin-bottom: 20px;}
+#ip2 .xwzx .xwzx_middle .xwzx_date{width: 12%;margin-right: 4%;height: 65px;border: 1px solid #696969;}
+#ip2 .xwzx .xwzx_middle .xwzx_date span{display:inline-block;width: 100%;text-align: center;}
+#ip2 .xwzx .xwzx_middle .xwzx_date .xwzx_date_top{height: 40px;background-color: #696969;line-height: 35px;font-weight: bold;font-size: 20px;color: #fff;}
+#ip2 .xwzx .xwzx_middle .xwzx_content{width: 80%;}
+
+#ip4{
+	width: 90%;margin: 40px auto 40px auto;
+}
+#ip4 .ip4_topbar ul li{transition:all ease 0.5s;margin:0 -1%;float: left;background-image: url(../images/icase_nav.png);width:12.3%;height: 95px;background-repeat: no-repeat;background-size: cover;text-align: center;}
+#ip4 .ip4_topbar ul .bar_a{background-image: url(../images/icase_nav_index.png);width: 10.4%;}
+#ip4 .ip4_topbar ul .bar_c{background-image: url(../images/icase_nav_last.png);width: 10%;margin-left: -1%}
+#ip4 .ip4_topbar ul li:hover{background-image: url(../images/icase_nav_on.png);}
+#ip4 .ip4_topbar ul .bar_a:hover{background-image: url(../images/icase_nav_index_on.png);}
+#ip4 .ip4_topbar ul .bar_c:hover{background-image: url(../images/icase_nav_last_on.png); }
+#ip4 .ip4_topbar ul li span{background-image: url(../images/case_ico.png);margin-top: 5px;transition:all ease 0.5s;display: inline-block;width: 35px;height: 40px;}
+#ip4 .ip4_topbar ul li:hover span{transform:rotateY(180deg);background-image: url(../images/case_ico_on.png);}
+#ip4 .ip4_ban{width: 101%;margin-top: 2px;margin-left: -1%}
+#ip4 .ip4_ban li{width: 100%;overflow: hidden;}
+#ip4 .ip4_ban li img{width: 100%;display: none;}
+
+#ip5{position: relative;z-index: 99;background-color: #f6f6f6;
+	width: 88%;margin: 40px auto -50px auto;border: 1px solid #ccc;
+}
+#ip5 .ip5_content h1 span{font-size: 16px;font-weight: normal;color: #555}
+ #ip5 .ip5_content{margin: 50px 4%;width: 92%;}
+ #ip5 .ip5_content .ip5_left{float: left;width: 72%;}
+ #ip5 .ip5_content .ip5_left>div{float: left;margin-top: 40px;width:23%;margin-right: 10%;border-right: 1px solid #ccc}
+ #ip5 .ip5_content .ip5_left>div ul{float: left;color: #777}
+#ip5 .ip5_content .ip5_left>div>img{float: left;margin-right: 8px;margin-top: 6px}
+#ip5 .ip5_content .ip5_right{
+	float: left;margin-bottom: -50px;
+}
+
+
+
+
+
+
+

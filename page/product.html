@@ -5,16 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>Document</title>
-    
-    <!-- <script type="text/javascript" src="tygy.js"></script> -->
-    <link rel="stylesheet" type="text/css" href="public/css/common.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../public/css/main.css"> -->
+    <script type="text/javascript" src="../public/js/jquery.js"></script>
+    <script type="text/javascript" src="../public/js/scrollReveal.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        $("#ip3 .ip3_left img:first").css({
+            display: "block"
+        });
+        $("#ip3 .ip3_left div>div:first").css({
+            display: "block",
+            bottom: "0px"
+        });
+        $("#ip3 .ip3_right ul li").mouseover(function() {
+            var i = $(this).index();
+            $("#ip3 .ip3_left img").css({
+                display: "none"
+            });
+            $("#ip3 .ip3_left img").eq(i).css({
+                display: "block"
+            });
+            $("#ip3 .ip3_left div>div").css({
+                display: "none",
+                bottom: "-200px"
+            });
+            $("#ip3 .ip3_left div>div").eq(i).show().animate({
+                bottom: "0"
+            }, 1000);
+        })
+
+    })
+    </script>
+    <link rel="stylesheet" type="text/css" href="../public/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/product/main.css">
 </head>
+
 <body>
     <div class="header">
         <i class="_bg"></i>
         <div class="wrap fix">
-            <h1 class="logo"> <a href="/" title="太原刚玉"> <img src="public/images/logo.png" alt="太原刚玉" /></a> </h1>
+            <h1 class="logo"> <a href="/" title="太原刚玉"> <img src="../public/images/logo.png" alt="太原刚玉" /></a> </h1>
             <div class="nav" id="menu">
                 <ul class="fixed">
                     <li> <a href="/index.htm">首页</a> </li>
@@ -54,8 +83,7 @@
                     <li> <a href="/join/join-list-0.htm">加入我们</a> </li>
                 </ul>
             </div>
-            <div id="top_fix">
-                <a href="#menu" class="mobile_key"><i class="ion"></i></a>
+            <a href="#menu" class="mobile_key"><i class="ion"></i></a>
             <div class="topBar">
                 <ul class="fix">
                     <li>
@@ -72,162 +100,129 @@
                     </li>
                 </ul>
             </div>
-            </div>
         </div>
     </div>
-    <div class="container">
-    	<div id="ip1">
-            <ul class="slide fix">
-                <li class="lia"></li>
-                <li class="lib"></li>
-                <li class="lic"></li>
-                <li class="lid"></li>
-            </ul>
+    <div class="content">
+        <div id="ip1">
+            <div class="ip1_left">
+                <div class="ip1_leftcon">
+                    <h1>研发实力</h1>
+                    <p>太原刚玉技术中心于1998年成立，专注于物流新产品开发和系统关键技术突破，拥有研发人员50余人，其中中高级技术人员21人，教授及教授级高工5人，该中心先后完成多项国家火炬计划项目、国家级新产品项目,并参与起草高速堆垛机与防爆堆垛机国家标准。 太原刚玉与世界知名品牌瑞士GILGEN和美国GBI开展技术合作，引进世界先进的物流装备技术和物流规划理念，以欧洲标准重塑公司产品。
+                    </p>
+                </div>
+                <div class="ip1_leftimg eff1">
+                    <img src="../public/images/product_images/a1.jpg">
+                </div>
+                <div class="ip1_leftimg eff1">
+                    <img src="../public/images/product_images/a3.jpg">
+                </div>
+            </div>
+            <div class="ip1_right eff1">
+                <img src="../public/images/product_images/a2.jpg">
+            </div>
+            <div class="fix"></div>
         </div>
         <div id="ip2">
-            <div class="zjgy">
-                <h1>走进刚玉</h1>
-                <ul class="zjgy_l fix">
-                    <li class="lil eff1"><img src="public/images/a.jpg"></li>
-                    <li class="lir eff1"><img src="public/images/b.jpg"></li>
-                    <li class="lir eff1"><img src="public/images/c.jpg"></li>
-                </ul>
+            <div class="ip2_right eff1">
+                <img src="../public/images/product_images/b_1.jpg">
             </div>
-            <div class="xwzx">
-                <h1>新闻中心</h1>
-                <div class="xwzx_top">
-                    <ul class="fix">
-                        <li class="eff1"><a href=""><img src="public/images/n_t.png"></a></li>
-                        <li><a href="">
-                            <h4>浙江刚玉智能科技有限公司乔迁新址</h4>
-                            <small>2016.04.15</small>
-                            <p>4月14日下午，浙江刚玉智能科技有限公司举行剪彩仪式，正式入驻新办公地点，公司地址由杭州...</p>
-                        </a></li>
-                    </ul>
+            <div class="ip2_left">
+                <div class="ip2_leftcon">
+                    <h1>研发实力</h1>
+                    <p>太原刚玉技术中心于1998年成立，专注于物流新产品开发和系统关键技术突破，拥有研发人员50余人，其中中高级技术人员21人，教授及教授级高工5人，该中心先后完成多项国家火炬计划项目、国家级新产品项目,并参与起草高速堆垛机与防爆堆垛机国家标准。 太原刚玉与世界知名品牌瑞士GILGEN和美国GBI开展技术合作，引进世界先进的物流装备技术和物流规划理念，以欧洲标准重塑公司产品。
+                    </p>
                 </div>
-                <div class="fix xwzx_middle">
-                    <a href=""><div class="xwzx_date">
-                        <span class="xwzx_date_top">25</span>
-                        <span>2016-3</span>
-                    </div></a>
-                    <a href="">
-                    <div class="xwzx_content">
-                        <h4>太原双塔刚玉股份有限公司</h4>
-                        <p>太原刚玉股份3月6日对外发布公告，根据公司战略部署，为充分...</p>
-                        <span>learnmore</span>
-                    </div>
-                    </a>
+                <div class="ip2_leftimg eff1">
+                    <img src="../public/images/product_images/b_2.jpg">
                 </div>
-                <div class="fix xwzx_middle">
-                    <a href=""><div class="xwzx_date">
-                        <span class="xwzx_date_top">25</span>
-                        <span>2016-3</span>
-                    </div></a>
-                    <a href="">
-                    <div class="xwzx_content">
-                        <h4>太原双塔刚玉股份有限公司</h4>
-                        <p>太原刚玉股份3月6日对外发布公告，根据公司战略部署，为充分体现公司发展战略目标</p>
-                        <span>learnmore</span>
-                    </div>
-                    </a>
+                <div class="ip2_leftimg eff1">
+                    <img src="../public/images/product_images/b_3.jpg">
                 </div>
             </div>
-            <div  class="fix"></div>
+            <div class="fix"></div>
         </div>
         <div id="ip3">
-            
-        </div>
-        <div id="ip4">
-            <h1>
-                行业案例
-            </h1>
-            <div class="ip4_topbar">
+            <div class="ip3_left">
+                <div class="eff1">
+                    <img src="../public/images/product_images/c_1.jpg">
+                    <div class="float">
+                        <p>存储系统指以托盘、料箱、纸箱为单位，通过货架对物料进行的立体式存储，整个系统采用软件调度，由堆垛机、穿梭车、穿梭板等起重搬运设备实现物料的自动化出入库。</p>
+                        <ul>
+                            <li>
+                                <h1>托盘存储系统</h1></li>
+                            <li>巷道堆垛机存储系统(AS/RS)</li>
+                            <li>穿梭式密集存储系统</li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h1>箱式存储系统</h1></li>
+                            <li>箱式堆垛机系统（miniload）</li>
+                            <li>多层穿梭车系统(multishuttle)</li>
+                        </ul>
+                        <ul class="fix"></ul>
+                    </div>
+                </div>
+                <div class="eff1"><img src="../public/images/product_images/c_b.jpg">
+                    <div class="float">
+                        <p>存储系统指以托盘、料箱、纸箱为单位，通过货架对物料进行的立体式存储，整个系统采用软件调度，由堆垛机、穿梭车、穿梭板等起重搬运设备实现物料的自动化出入库。</p>
+                        <ul>
+                            <li>
+                                <h1>托盘存储系统</h1></li>
+                            <li>巷道堆垛机存储系统(AS/RS)</li>
+                            <li>穿梭式密集存储系统</li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <h1>箱式存储系统</h1></li>
+                            <li>箱式堆垛机系统（miniload）</li>
+                            <li>多层穿梭车系统(multishuttle)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="eff1"><img src="../public/images/product_images/c_3.jpg">
+                    <div class="float">
+                        <p>电子标签拣选系统（DPS），是以一整套装于货架格位上的电子显示装置(信号灯、显示器、确认按钮)取代拣货单。当捡货订单下达后，灯光引导操作人员前往正确地点，显示器显示需要捡出的数量，确认按钮在捡完货物后负责向系统反馈。该系统可减少捡货员目视寻找时间，提高捡货效率，减小出错率。</p>
+                        <ul>
+                            <li>
+                                <h1>拣选系统</h1></li>
+                            <li>电子标签拣选</li>
+                            <li>手持终端拣选</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="eff1"><img src="../public/images/product_images/c_4.jpg">
+                    <div class="float">
+                        <p>搬运系统指采用轨道、悬挂轨道、自动引导等方式，实现物料往复式搬运的自动载具，同时还包括机械手和码垛机等码垛系统。</p>
+                        <ul>
+                            <li>
+                                <h1>搬运系统</h1></li>
+                            <li><a href=""> 自动引导小车（AGV）</a> <a href="">有轨小车（RGV）</a></li>
+                            <li><a href="">悬挂有轨小车（EMS</a> <a href="">码垛系统（码垛机器人）</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="eff1"><img src="../public/images/product_images/c_5.jpg">
+                    <div class="float">
+                        <p>物流管理软件由仓库管理系统（WMS）和设备控制系统（WCS）构成，模块化、开放化的设计能根据不同行业进行定制化开发，并实现与REP、MES等软件的对接，从而提高企业信息化管理的广度和深度.</p>
+                        <ul>
+                            <li>
+                                <h1>物流软件</h1></li>
+                            <li><a href="">仓库管理软件（WMS）</a></li>
+                            <li><a href="">设备控制软件（WCS）</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="ip3_right">
                 <ul>
-                    <li class="bar_a"><span></span><p>医药</p></li>
-                    <li><span></span><p>食品</p></li>
-                    <li><span></span><p>汽车</p></li>
-                    <li><span></span><p>机械</p></li>
-                    <li><span></span><p>烟草</p></li>
-                    <li><span></span><p>电力</p></li>
-                    <li><span></span><p>交通</p></li>
-                    <li><span></span><p>军工</p></li>
-                    <li><span></span><p>化工</p></li>
-                    <li class="bar_c"><span></span><p>其他</p></li>
-                    <div class="fix"></div>
+                    <li>存储系统</li>
+                    <li>输送分拣系统</li>
+                    <li>拣选系统</li>
+                    <li>搬运系统</li>
+                    <li>物流软件</li>
                 </ul>
             </div>
-            <div class="ip4_ban">
-                <ul>
-                    <li>
-                        <img src="public/images/tab1.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab2.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab3.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab4.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab5.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab6.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab7.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab8.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab9.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab10.jpg">
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div id="ip5">
-            <div class="ip5_content">
-                
-                <div class="ip5_left">
-                    <h1>服务支持<span>|从初期规划到建成维护的一站式服务</span></h1>
-                    <div class="left_a">
-                        <img src="public/images/iser_i1.png">
-                        <ul>
-                            <li>免费技术咨询</li>
-                            <li>可行性评估</li>
-                            <li>初步方案规划</li>
-                        </ul>
-                    </div>
-                    <div class="left_a">
-                        <img src="public/images/iser_i2.png">
-                        <ul>
-                            <li>免费技术咨询</li>
-                            <li>可行性评估</li>
-                            <li>初步方案规划</li>
-                        </ul>
-                    </div>
-                    <div class="left_a">
-                        <img src="public/images/iser_i3.png">
-                        <ul>
-                            <li>免费技术咨询</li>
-                            <li>可行性评估</li>
-                            <li>初步方案规划</li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div class="ip5_right">
-                 <img src="public/images/iser_img.png">
-                </div>
-                <div class="fix">
-                    
-                </div>
+            <div class="fix">
             </div>
         </div>
     </div>
@@ -323,12 +318,8 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="public/js/jquery.js"></script>
-
-    <script type="text/javascript" src="public/js/index.js"></script>
-    <script src="public/js/scrollReveal.js"></script>
     <script>
-    (function() {
+    $(function() {
         window.scrollReveal = new scrollReveal({
             reset: true
         });

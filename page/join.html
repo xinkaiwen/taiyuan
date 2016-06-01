@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>Document</title>
-    
-    <!-- <script type="text/javascript" src="tygy.js"></script> -->
-    <link rel="stylesheet" type="text/css" href="public/css/common.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../public/css/main.css"> -->
+    <script type="text/javascript" src="../public/js/jquery.js"></script>
+    <script type="text/javascript" src="../public/js/scrollReveal.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="../public/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/join/style.css">
 </head>
+
 <body>
     <div class="header">
         <i class="_bg"></i>
         <div class="wrap fix">
-            <h1 class="logo"> <a href="/" title="太原刚玉"> <img src="public/images/logo.png" alt="太原刚玉" /></a> </h1>
+            <h1 class="logo"> <a href="/" title="太原刚玉"> <img src="../public/images/logo.png" alt="太原刚玉" /></a> </h1>
             <div class="nav" id="menu">
                 <ul class="fixed">
                     <li> <a href="/index.htm">首页</a> </li>
@@ -54,8 +55,7 @@
                     <li> <a href="/join/join-list-0.htm">加入我们</a> </li>
                 </ul>
             </div>
-            <div id="top_fix">
-                <a href="#menu" class="mobile_key"><i class="ion"></i></a>
+            <a href="#menu" class="mobile_key"><i class="ion"></i></a>
             <div class="topBar">
                 <ul class="fix">
                     <li>
@@ -72,163 +72,132 @@
                     </li>
                 </ul>
             </div>
-            </div>
         </div>
     </div>
     <div class="container">
-    	<div id="ip1">
-            <ul class="slide fix">
-                <li class="lia"></li>
-                <li class="lib"></li>
-                <li class="lic"></li>
-                <li class="lid"></li>
-            </ul>
-        </div>
-        <div id="ip2">
-            <div class="zjgy">
-                <h1>走进刚玉</h1>
-                <ul class="zjgy_l fix">
-                    <li class="lil eff1"><img src="public/images/a.jpg"></li>
-                    <li class="lir eff1"><img src="public/images/b.jpg"></li>
-                    <li class="lir eff1"><img src="public/images/c.jpg"></li>
+        <div id="ip1">
+            <div class="ip1_bg">
+                <img src="../public/images/join_images/job_top_ban.jpg">
+            </div>
+            <div class="ip1_li">
+                <ul>
+                    <li data-scroll-reveal="enter bottom and left, over 0.6s, wait 0.5s,move 40px">
+                        <div class="ip1_li_tran"></div>
+                        <div class="ip1_li_con">
+                            <h1>价值观</h1>
+                            <h4>Work Values</h4>
+                            <hr/>
+                            <p>以提升客户服务和产品品质为己任，发扬产业龙头风范，坚持原则，追求纯粹，不忘初心。</p>
+                        </div>
+                    </li>
+                    
+                    <li data-scroll-reveal="enter bottom and left, over 0.5s, wait 0.8s,move 30px">
+                        <div class="ip1_li_tran"></div>
+                        <div class="ip1_li_con">
+                            <h1>用人理念</h1>
+                            <h4>Employing Principles</h4>
+                            <hr/>
+                            <p>德才兼备，具备过硬的专业能力和职业素养临事而惧，对岗位心存敬畏，不辱使命认可企业，以企业为家，将企业利益和个人利益同等看待</p>
+                        </div>
+                    </li>
+                    <li data-scroll-reveal="enter bottom and left, over 0.5s, wait 1.1s,move 20px">
+                        <div class="ip1_li_tran"></div>
+                        <div class="ip1_li_con">
+                            <h1>人才发展</h1>
+                            <h4>Talent Development</h4>
+                            <hr/>
+                            <p>从“伯乐相马”到“赛场选马”公平公正，消除模式化、神秘化让想干事的人有机会，能干事的人有舞台，干成事的人有地位有待遇</p>
+                        </div>
+                    </li>
                 </ul>
             </div>
-            <div class="xwzx">
-                <h1>新闻中心</h1>
-                <div class="xwzx_top">
-                    <ul class="fix">
-                        <li class="eff1"><a href=""><img src="public/images/n_t.png"></a></li>
-                        <li><a href="">
-                            <h4>浙江刚玉智能科技有限公司乔迁新址</h4>
-                            <small>2016.04.15</small>
-                            <p>4月14日下午，浙江刚玉智能科技有限公司举行剪彩仪式，正式入驻新办公地点，公司地址由杭州...</p>
-                        </a></li>
-                    </ul>
-                </div>
-                <div class="fix xwzx_middle">
-                    <a href=""><div class="xwzx_date">
-                        <span class="xwzx_date_top">25</span>
-                        <span>2016-3</span>
-                    </div></a>
-                    <a href="">
-                    <div class="xwzx_content">
-                        <h4>太原双塔刚玉股份有限公司</h4>
-                        <p>太原刚玉股份3月6日对外发布公告，根据公司战略部署，为充分...</p>
-                        <span>learnmore</span>
-                    </div>
-                    </a>
-                </div>
-                <div class="fix xwzx_middle">
-                    <a href=""><div class="xwzx_date">
-                        <span class="xwzx_date_top">25</span>
-                        <span>2016-3</span>
-                    </div></a>
-                    <a href="">
-                    <div class="xwzx_content">
-                        <h4>太原双塔刚玉股份有限公司</h4>
-                        <p>太原刚玉股份3月6日对外发布公告，根据公司战略部署，为充分体现公司发展战略目标</p>
-                        <span>learnmore</span>
-                    </div>
-                    </a>
-                </div>
-            </div>
-            <div  class="fix"></div>
-        </div>
-        <div id="ip3">
             
         </div>
-        <div id="ip4">
-            <h1>
-                行业案例
-            </h1>
-            <div class="ip4_topbar">
-                <ul>
-                    <li class="bar_a"><span></span><p>医药</p></li>
-                    <li><span></span><p>食品</p></li>
-                    <li><span></span><p>汽车</p></li>
-                    <li><span></span><p>机械</p></li>
-                    <li><span></span><p>烟草</p></li>
-                    <li><span></span><p>电力</p></li>
-                    <li><span></span><p>交通</p></li>
-                    <li><span></span><p>军工</p></li>
-                    <li><span></span><p>化工</p></li>
-                    <li class="bar_c"><span></span><p>其他</p></li>
-                    <div class="fix"></div>
-                </ul>
+        <div id="ip2">
+            <div data-scroll-reveal="enter bottom, over 0.5s, wait 1.1s,move 20px">
+                <div class="ip2_head">
+                <img src="../public/images/join_images/job_tip_ico.png">
             </div>
-            <div class="ip4_ban">
-                <ul>
-                    <li>
-                        <img src="public/images/tab1.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab2.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab3.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab4.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab5.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab6.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab7.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab8.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab9.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab10.jpg">
-                    </li>
-                </ul>
+            <div class="ip2_con">
+                <img src="../public/images/join_images/job_tip_t.png">
+                <p>我们面向全国需找工业工程领域顶尖人才，只要你对职业道路有所执着，刚玉就是你的归属</p>
+                <p>我们对优秀应届生敞开大门，只要你是牛人，刚玉就是你实现梦想的舞台</p>
+            </div>
             </div>
         </div>
-        <div id="ip5">
-            <div class="ip5_content">
-                
-                <div class="ip5_left">
-                    <h1>服务支持<span>|从初期规划到建成维护的一站式服务</span></h1>
-                    <div class="left_a">
-                        <img src="public/images/iser_i1.png">
-                        <ul>
-                            <li>免费技术咨询</li>
-                            <li>可行性评估</li>
-                            <li>初步方案规划</li>
-                        </ul>
-                    </div>
-                    <div class="left_a">
-                        <img src="public/images/iser_i2.png">
-                        <ul>
-                            <li>免费技术咨询</li>
-                            <li>可行性评估</li>
-                            <li>初步方案规划</li>
-                        </ul>
-                    </div>
-                    <div class="left_a">
-                        <img src="public/images/iser_i3.png">
-                        <ul>
-                            <li>免费技术咨询</li>
-                            <li>可行性评估</li>
-                            <li>初步方案规划</li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div class="ip5_right">
-                 <img src="public/images/iser_img.png">
-                </div>
-                <div class="fix">
-                    
-                </div>
-            </div>
+        <div id="ip3">
+            <table>
+                <tr data-scroll-reveal="enter bottom, over 0.3s, wait 0.2s,move 20px">
+                    <th>职位名称</th>
+                    <th>招聘部门</th>
+                    <th>地点</th>
+                    <th>人数</th>
+                    <th>发布时间</th>
+                </tr>
+                <tr data-scroll-reveal="enter bottom, over 0.3s, wait 0.5s,move 20px">
+                    <td>机械设计人员</td>
+                    <td>机械部</td>
+                    <td>浙江,杭州市,上城区</td>
+                    <td>1</td>
+                    <td>2016/03/24</td>
+                </tr>
+                <tr data-scroll-reveal="enter bottom, over 0.3s, wait 0.8s,move 20px">
+                    <td>机械设计人员</td>
+                    <td>机械部</td>
+                    <td>浙江,杭州市,上城区</td>
+                    <td>1</td>
+                    <td>2016/03/24</td>
+                </tr>
+                <tr data-scroll-reveal="enter bottom, over 0.3s, wait 1.1s,move 20px">
+                    <td>机械设计人员</td>
+                    <td>机械部</td>
+                    <td>浙江,杭州市,上城区</td>
+                    <td>1</td>
+                    <td>2016/03/24</td>
+                </tr>
+                <tr data-scroll-reveal="enter bottom, over 0.3s, wait 1.4s,move 20px">
+                    <td>机械设计人员</td>
+                    <td>机械部</td>
+                    <td>浙江,杭州市,上城区</td>
+                    <td>1</td>
+                    <td>2016/03/24</td>
+                </tr>
+                <tr data-scroll-reveal="enter bottom, over 0.3s, wait 1.7s,move 20px">
+                    <td>机械设计人员</td>
+                    <td>机械部</td>
+                    <td>浙江,杭州市,上城区</td>
+                    <td>1</td>
+                    <td>2016/03/24</td>
+                </tr>
+                <tr data-scroll-reveal="enter bottom, over 0.3s, wait 2s,move 20px">
+                    <td>机械设计人员</td>
+                    <td>机械部</td>
+                    <td>浙江,杭州市,上城区</td>
+                    <td>1</td>
+                    <td>2016/03/24</td>
+                </tr>
+                <tr data-scroll-reveal="enter bottom, over 0.3s, wait 2.3s,move 20px">
+                    <td>机械设计人员</td>
+                    <td>机械部</td>
+                    <td>浙江,杭州市,上城区</td>
+                    <td>1</td>
+                    <td>2016/03/24</td>
+                </tr>
+                <tr data-scroll-reveal="enter bottom, over 0.3s, wait 2.6s,move 20px">
+                    <td>机械设计人员</td>
+                    <td>机械部</td>
+                    <td>浙江,杭州市,上城区</td>
+                    <td>1</td>
+                    <td>2016/03/24</td>
+                </tr>
+                <tr data-scroll-reveal="enter bottom, over 0.3s, wait 2.9s,move 20px">
+                    <td>机械设计人员</td>
+                    <td>机械部</td>
+                    <td>浙江,杭州市,上城区</td>
+                    <td>1</td>
+                    <td>2016/03/24</td>
+                </tr>
+            </table>
         </div>
     </div>
     <div class="footer">
@@ -323,15 +292,11 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="public/js/jquery.js"></script>
-
-    <script type="text/javascript" src="public/js/index.js"></script>
-    <script src="public/js/scrollReveal.js"></script>
     <script>
-    (function() {
-        window.scrollReveal = new scrollReveal({
-            reset: true
-        });
+    $(function() {
+        // window.scrollReveal = new scrollReveal({
+        //     reset: true
+        // });
     })();
     </script>
 </body>

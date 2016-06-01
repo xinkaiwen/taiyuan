@@ -1,0 +1,10 @@
+@charset "utf-8";
+@import url(pc.css) screen and (min-width:800px);
+@import url(mobile.css) screen and (max-width: 800px);
+
+#ip3 table{width: 80%;margin-left: auto;margin-right: auto;text-align: center;
+	border-spacing: 0;border-top: 4px solid #ddd;margin-top: 50px;}
+#ip3 th{font-size: 15px}
+#ip3 tr{height: 70px;line-height: 70px;}
+#ip3 tr td{color: #888;font-size: 15px;border-bottom: 1px solid #ddd;transition:all ease 0.5s;}
+#ip3 tr:hover td{color: #008cd8}

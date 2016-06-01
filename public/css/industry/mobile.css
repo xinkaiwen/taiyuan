@@ -1,0 +1,16 @@
+@charset "utf-8";
+*{margin: 0;padding:0;list-style: none;}
+/*案例*/
+.case_main { height: 1340px;  overflow: hidden; background:  url(../../images/hyyy-images/case_main.jpg);background-repeat: no-repeat;background-size: cover;}
+.case_main ._list { margin: 70px 0;}
+.case_main ._list li{ position: relative;  overflow: hidden; height: 205px;overflow: hidden;}
+.case_main ._list li img{width: 100%;}
+
+.case_main ._list li ._st{ position: absolute; bottom: 13px; left: 25px; font-size: 14px; color: #fff; font-weight: bold; z-index: 5}
+
+ .case_main ._list li._bt,.case_main ._list li._last{ background-color: #008cd6;}
+.case_main ._list li ._box{ padding: 10%; padding-top: 15%; color: #fff;}
+.case_main ._list li ._box ._ico{ float: left; width: 26%; margin-top: 20px;}
+.case_main ._list li ._box ._p{ float: right; width: 70%;}
+.case_main ._list li ._box ._p ._cht{ font-size: 24px; font-weight: bold; margin-bottom: 8px; line-height: normal}
+.case_main ._list li._last ._box ._ico{ float: right;}

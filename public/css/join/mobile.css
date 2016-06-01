@@ -1,0 +1,18 @@
+#ip1{position: relative;}
+#ip1 .ip1_bg{width: 100%;overflow: hidden;position: relative;}
+#ip1 .ip1_bg img{margin-left: -20%;height: auto;}
+#ip1 .ip1_li ul{position: absolute;margin-left: 5%;width:85%;top: 20px;font-size: 14px}
+#ip1 .ip1_li ul li{float: none;width:100%;padding:15px 20px 20px 20px;	margin-bottom: 10px;border-radius: 10px;height: auto;overflow: hidden;background-color:rgba(0, 0, 0, 0.7);}
+#ip1 .ip1_li ul li .ip1_li_tran{background-image: none;height: 0;width: 0;}
+#ip1 .ip1_li ul li .ip1_li_con{color: #fff;}
+#ip1 .ip1_li ul li .ip1_li_con h1{text-align: center;font-size: 28px;font-weight: 900;}
+#ip1 .ip1_li ul li .ip1_li_con h4{font-size: 20px;text-align: center;margin-top: -10px;}
+#ip1 .ip1_li ul li .ip1_li_con hr{width: 30px;margin:5px auto 10px auto;border-color: #008CD8;}
+#ip1 .ip1_li ul li:hover {background-color: #008cd8}
+#ip1 .ip1_li ul li:hover .ip1_li_con hr{border-color: #fff;}
+
+#ip2{background-color: #008cd8;padding-top:60px;margin-top: -10px;width: 100%;}
+#ip2 .ip2_head img{display: none;margin: -60px auto 0 auto;z-index: 999;position: relative;}
+#ip2 .ip2_con img{margin: 20px auto ;display: block;}
+#ip2 .ip2_con{text-align: center;color: #fff;padding-bottom: 50px;}
+

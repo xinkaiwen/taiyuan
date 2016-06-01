@@ -5,16 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>Document</title>
-    
+    <script type="text/javascript" src="../public/js/jquery.js"></script>
+    <script type="text/javascript" src="../public/js/case.js"></script>
+    <script type="text/javascript" src="../public/js/scrollReveal.js"></script>
     <!-- <script type="text/javascript" src="tygy.js"></script> -->
-    <link rel="stylesheet" type="text/css" href="public/css/common.css">
-    <!-- <link rel="stylesheet" type="text/css" href="../public/css/main.css"> -->
+    <link rel="stylesheet" href="../public/css/ui.css" />
+  <link rel="stylesheet" href="../public/css/grid12.css" />
+    <link rel="stylesheet" type="text/css" href="../public/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../public/css/industry/style.css">
 </head>
+
 <body>
     <div class="header">
         <i class="_bg"></i>
         <div class="wrap fix">
-            <h1 class="logo"> <a href="/" title="太原刚玉"> <img src="public/images/logo.png" alt="太原刚玉" /></a> </h1>
+            <h1 class="logo"> <a href="/" title="太原刚玉"> <img src="../public/images/logo.png" alt="太原刚玉" /></a> </h1>
             <div class="nav" id="menu">
                 <ul class="fixed">
                     <li> <a href="/index.htm">首页</a> </li>
@@ -54,8 +59,7 @@
                     <li> <a href="/join/join-list-0.htm">加入我们</a> </li>
                 </ul>
             </div>
-            <div id="top_fix">
-                <a href="#menu" class="mobile_key"><i class="ion"></i></a>
+            <a href="#menu" class="mobile_key"><i class="ion"></i></a>
             <div class="topBar">
                 <ul class="fix">
                     <li>
@@ -72,165 +76,94 @@
                     </li>
                 </ul>
             </div>
+        </div>
+    </div>
+    <!--main-->
+    <div class="case_main">
+        <div class="wrap">
+            <div class="_list">
+                <ul class="full-row">
+                    <li class="span-3 smal-6 _bt">
+                        <div class="_box">
+                            <img src="../public/images/hyyy-images/case_ico1.png" class="_ico" />
+                            <div class="_p">
+                                <h2 class="_cht">行业案例</h2>
+                                <p>作为物流装备产业的先驱者和引领者，刚玉经过30余年不断发展，在各领域累计案例达数百个</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="span-3 smal-6 eff1">
+                        <a href="207031.htm" title="医药" target="_blank"> <img src="../public/images/hyyy-images/6c3e25978a6d47868842e77cedecf81a.jpg" alt="医药" /> <span class="_st s">医药</span> <i class="_arr"></i> <i class="_yy"></i> </a>
+                        <div class="mask"></div>
+                    </li>
+                    <li class="span-3 smal-6 eff1">
+                        <a href="207032.htm" title="食品" target="_blank"> <img src="../public/images/hyyy-images/e95a543b8ffa4a07ab57436d46db7621.jpg" alt="食品" /> <span class="_st s">食品</span> <i class="_arr"></i> <i class="_yy"></i> </a>
+                        <div class="mask"></div>
+                    </li>
+                    <li class="span-3 smal-6 eff1">
+                        <a href="207033.htm" title="汽车" target="_blank"> <img src="../public/images/hyyy-images/3783676906e94f208f7dc04f41058bb8.jpg" alt="汽车" /> <span class="_st s">汽车</span> <i class="_arr"></i> <i class="_yy"></i> </a>
+                        <div class="mask"></div>
+                    </li>
+                    <li class="span-3 smal-6 eff1">
+                        <a href="207034.htm" title="机械" target="_blank"> <img src="../public/images/hyyy-images/f783791cd62047a0b40d77fdcca22aba.jpg" alt="机械" /> <span class="_st s">机械</span> <i class="_arr"></i> <i class="_yy"></i> </a>
+                        <div class="mask"></div>
+                    </li>
+                    <li class="span-3 smal-6 eff1">
+                        <a href="207036.htm" title="烟草" target="_blank"> <img src="../public/images/hyyy-images/a99f8a6a1af14280a60ae2b0eda6a04b.jpg" alt="烟草" /> <span class="_st s">烟草</span> <i class="_arr"></i> <i class="_yy"></i> </a>
+                        <div class="mask"></div>
+                    </li>
+                    <li class="span-3 smal-6 eff1">
+                        <a href="207035.htm" title="电力" target="_blank"> <img src="../public/images/hyyy-images/2f541fb318a64b26b9a1cf0f4b57dccd.jpg" alt="电力" /> <span class="_st s">电力</span> <i class="_arr"></i> <i class="_yy"></i> </a>
+                        <div class="mask"></div>
+                    </li>
+                    <li class="span-3 smal-6 eff1">
+                        <a href="207038.htm" title="交通" target="_blank"> <img src="../public/images/hyyy-images/38291c5cc03e47e99305b900bc63ee0c.jpg" alt="交通" /> <span class="_st s">交通</span> <i class="_arr"></i> <i class="_yy"></i> </a>
+                        <div class="mask"></div>
+                    </li>
+                    <li class="span-3 smal-6 eff1">
+                        <a href="207037.htm" title="军工" target="_blank"> <img src="../public/images/hyyy-images/846195d49dbd4f83b25470adb4472ec7.jpg" alt="军工" /> <span class="_st s">军工</span> <i class="_arr"></i> <i class="_yy"></i> </a>
+                        <div class="mask"></div>
+                    </li>
+                    <li class="span-3 smal-6 eff1">
+                        <a href="207039.htm" title="化工" target="_blank"> <img src="../public/images/hyyy-images/6cb752123d114576a41c90ea3c076c56.jpg" alt="化工" /> <span class="_st s">化工</span> <i class="_arr"></i> <i class="_yy"></i> </a>
+                        <div class="mask"></div>
+                    </li>
+                    <li class="span-3 smal-6 eff1">
+                        <a href="207040.htm" title="其他" target="_blank"> <img src="../public/images/hyyy-images/3bdba4e1564041efad797590c804ada0.jpg" alt="其他" /> <span class="_st s">其他</span> <i class="_arr"></i> <i class="_yy"></i> </a>
+                        <div class="mask"></div>
+                    </li>
+                    <li class="span-3 smal-6 _last">
+                        <a href="/about/lian-xi-wo-men.htm">
+                            <div class="_box">
+                                <img src="../public/images/hyyy-images/case_ico2.png" class="_ico" />
+                                <div class="_p">
+                                    <h2 class="_cht">联系我们</h2>
+                                    <p> 想了解更多行业应用
+                                        <br />请拨打免费咨询热线
+                                        <br /><span style="font-size:20px; font-weight: bold;">400-006-9180</span></p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-    <div class="container">
-    	<div id="ip1">
-            <ul class="slide fix">
-                <li class="lia"></li>
-                <li class="lib"></li>
-                <li class="lic"></li>
-                <li class="lid"></li>
-            </ul>
-        </div>
-        <div id="ip2">
-            <div class="zjgy">
-                <h1>走进刚玉</h1>
-                <ul class="zjgy_l fix">
-                    <li class="lil eff1"><img src="public/images/a.jpg"></li>
-                    <li class="lir eff1"><img src="public/images/b.jpg"></li>
-                    <li class="lir eff1"><img src="public/images/c.jpg"></li>
-                </ul>
-            </div>
-            <div class="xwzx">
-                <h1>新闻中心</h1>
-                <div class="xwzx_top">
-                    <ul class="fix">
-                        <li class="eff1"><a href=""><img src="public/images/n_t.png"></a></li>
-                        <li><a href="">
-                            <h4>浙江刚玉智能科技有限公司乔迁新址</h4>
-                            <small>2016.04.15</small>
-                            <p>4月14日下午，浙江刚玉智能科技有限公司举行剪彩仪式，正式入驻新办公地点，公司地址由杭州...</p>
-                        </a></li>
-                    </ul>
-                </div>
-                <div class="fix xwzx_middle">
-                    <a href=""><div class="xwzx_date">
-                        <span class="xwzx_date_top">25</span>
-                        <span>2016-3</span>
-                    </div></a>
-                    <a href="">
-                    <div class="xwzx_content">
-                        <h4>太原双塔刚玉股份有限公司</h4>
-                        <p>太原刚玉股份3月6日对外发布公告，根据公司战略部署，为充分...</p>
-                        <span>learnmore</span>
-                    </div>
-                    </a>
-                </div>
-                <div class="fix xwzx_middle">
-                    <a href=""><div class="xwzx_date">
-                        <span class="xwzx_date_top">25</span>
-                        <span>2016-3</span>
-                    </div></a>
-                    <a href="">
-                    <div class="xwzx_content">
-                        <h4>太原双塔刚玉股份有限公司</h4>
-                        <p>太原刚玉股份3月6日对外发布公告，根据公司战略部署，为充分体现公司发展战略目标</p>
-                        <span>learnmore</span>
-                    </div>
-                    </a>
-                </div>
-            </div>
-            <div  class="fix"></div>
-        </div>
-        <div id="ip3">
-            
-        </div>
-        <div id="ip4">
-            <h1>
-                行业案例
-            </h1>
-            <div class="ip4_topbar">
+    <!--main end-->
+    <!-- <div class="gy_mmenu MobilePush">
+        <a href="javascript:;" class="mb_key"></a>
+        <div class="_menu">
+            <div class="_box">
+                <div class="menu_close"></div>
                 <ul>
-                    <li class="bar_a"><span></span><p>医药</p></li>
-                    <li><span></span><p>食品</p></li>
-                    <li><span></span><p>汽车</p></li>
-                    <li><span></span><p>机械</p></li>
-                    <li><span></span><p>烟草</p></li>
-                    <li><span></span><p>电力</p></li>
-                    <li><span></span><p>交通</p></li>
-                    <li><span></span><p>军工</p></li>
-                    <li><span></span><p>化工</p></li>
-                    <li class="bar_c"><span></span><p>其他</p></li>
-                    <div class="fix"></div>
-                </ul>
-            </div>
-            <div class="ip4_ban">
-                <ul>
-                    <li>
-                        <img src="public/images/tab1.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab2.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab3.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab4.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab5.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab6.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab7.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab8.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab9.jpg">
-                    </li>
-                    <li>
-                        <img src="public/images/tab10.jpg">
-                    </li>
+                    <li class="l1"> <a href="/about/index.htm">公司</a> </li>
+                    <li class="l2"> <a href="/industry/index.htm">案例</a> </li>
+                    <li class="l3"> <a href="/join/join-list-0.htm">招聘</a> </li>
+                    <li class="l4"> <a href="/solution/index.htm">方案</a> </li>
                 </ul>
             </div>
         </div>
-        <div id="ip5">
-            <div class="ip5_content">
-                
-                <div class="ip5_left">
-                    <h1>服务支持<span>|从初期规划到建成维护的一站式服务</span></h1>
-                    <div class="left_a">
-                        <img src="public/images/iser_i1.png">
-                        <ul>
-                            <li>免费技术咨询</li>
-                            <li>可行性评估</li>
-                            <li>初步方案规划</li>
-                        </ul>
-                    </div>
-                    <div class="left_a">
-                        <img src="public/images/iser_i2.png">
-                        <ul>
-                            <li>免费技术咨询</li>
-                            <li>可行性评估</li>
-                            <li>初步方案规划</li>
-                        </ul>
-                    </div>
-                    <div class="left_a">
-                        <img src="public/images/iser_i3.png">
-                        <ul>
-                            <li>免费技术咨询</li>
-                            <li>可行性评估</li>
-                            <li>初步方案规划</li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div class="ip5_right">
-                 <img src="public/images/iser_img.png">
-                </div>
-                <div class="fix">
-                    
-                </div>
-            </div>
-        </div>
-    </div>
+    </div> -->
     <div class="footer">
         <div class="footer_hd">
             <div class="wrap fix">
@@ -323,16 +256,9 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="public/js/jquery.js"></script>
-
-    <script type="text/javascript" src="public/js/index.js"></script>
-    <script src="public/js/scrollReveal.js"></script>
-    <script>
-    (function() {
-        window.scrollReveal = new scrollReveal({
-            reset: true
-        });
-    })();
+    <script type="text/javascript" src="../public/js/index.js"></script>
+    <script type="text/javascript">
+    window.scrollReveal = new scrollReveal();
     </script>
 </body>
 
