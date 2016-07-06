@@ -71,25 +71,8 @@ a:hover { color: #008cd6;}
 /*footer*/
 .footer_hd._index{ padding-top: 100px;}
 .footer_hd{ padding-top: 55px; padding-bottom: 30px; background-color: #434343;}
-.footer_nav{ float: left; width: 71%;}
-.footer_nav dl{ float: left; padding: 0 5%; height: 190px; border-right: 1px solid #545454;}
-.footer_nav dt{ font-size: 14px; color: #fff; margin-bottom: 8px;}
-.footer_nav dd a{ display: block; color: #919191; font-size: 12px;}
-.footer_nav dl._case { width: 13%;}
-.footer_nav dl._case  dd a{ float: left; width: 50%;}
-.footer_bd{ padding: 10px 0; background-color: #008cd6; color: #fff;}
-.footer_ewm{ float: right; width: 26%;}
-.footer_ewm ._ct{ color: #fff; font-size: 14px;}
-.footer_ewm ._phone{ font-family: 'Impact'; color: #fff; font-size: 30px;}
-.footer_ewm ._phone a{ color: #fff;}
-.footer_ewm ._lk { padding-bottom: 8px; margin-bottom: 8px; border-bottom: 1px solid #666869;}
-.footer_ewm ._lk span{display: block; color: #919191;}
-.footer_ewm  ._ewm ._img{ float: left; margin-right: 12px;}
-.footer_ewm  ._ewm  p{ color: #919191;}
-.footer_bd a{ color: #fff;}
-.footer_bd em{ padding: 0 5px;}
-.footer_bd h2{ float: left;}
-.footer_bd h3{ float: right;}
+
+
 
 /*common*/
 h1,h2,h3,h4{ font-size: 12px; font-weight: normal;}

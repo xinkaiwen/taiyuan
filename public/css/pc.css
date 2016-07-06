@@ -8,10 +8,11 @@
 #ip1 .slide{width: 500%;position: relative;margin-left: -10%;}
 #ip1 .slide li{float: left;overflow: hidden;position: relative;
 	height: 500px;width: 25%;background-position: -100px 0;}
-#ip1 .slide .lia{background-image: url(../images/11.jpg);}
-#ip1 .slide .lib{background-image: url(../images/22.jpg);}
-#ip1 .slide .lic{background-image: url(../images/33.jpg);}
-#ip1 .slide .lid{background-image: url(../images/44.jpg);}
+#ip1 .slide li img{width: 100%;height: 100%}
+// #ip1 .slide .lia{background-image: url(../images/11.jpg);}
+// #ip1 .slide .lib{background-image: url(../images/22.jpg);}
+// #ip1 .slide .lic{background-image: url(../images/33.jpg);}
+// #ip1 .slide .lid{background-image: url(../images/44.jpg);}
 #ip1 .slide li img{max-width: 100%;display: block;}
 .ip1_con .smallli{width: 100%;bottom: -48px;z-index: 99;position: absolute;}
 .ip1_con .smallli li{line-height: 80px;text-align: center;float: left;width: 24.8%;height: 80px;background-color: rgba(0,0,0,0.5);color: #fff;font-size: 25px;font-weight: bold;}
@@ -70,6 +71,25 @@
 	float: left;margin-bottom: -50px;
 }
 
+.footer_nav{ float: left; width: 71%;}
+.footer_nav dl{ float: left; padding: 0 5%; height: 190px; border-right: 1px solid #545454;}
+.footer_nav dt{ font-size: 14px; color: #fff; margin-bottom: 8px;}
+.footer_nav dd a{ display: block; color: #919191; font-size: 12px;}
+.footer_nav dl._case { width: 13%;}
+.footer_nav dl._case  dd a{ float: left; width: 50%;}
+.footer_bd{ padding: 10px 0; background-color: #008cd6; color: #fff;}
+.footer_ewm{ float: right; width: 26%;}
+.footer_ewm ._ct{ color: #fff; font-size: 14px;}
+.footer_ewm ._phone{ font-family: 'Impact'; color: #fff; font-size: 30px;}
+.footer_ewm ._phone a{ color: #fff;}
+.footer_ewm ._lk { padding-bottom: 8px; margin-bottom: 8px; border-bottom: 1px solid #666869;}
+.footer_ewm ._lk span{display: block; color: #919191;}
+.footer_ewm  ._ewm ._img{ float: left; margin-right: 12px;}
+.footer_ewm  ._ewm  p{ color: #919191;}
+.footer_bd a{ color: #fff;}
+.footer_bd em{ padding: 0 5px;}
+.footer_bd h2{ float: left;}
+.footer_bd h3{ float: right;}
 
 
 

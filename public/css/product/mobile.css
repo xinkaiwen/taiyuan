@@ -1,0 +1,33 @@
+#ip1 .ip1_left{width: 100%;float: none;margin-right: 1%}
+#ip1 .ip1_left .ip1_leftcon{float: none;width: 100%;background-color: #f1f1f1;padding: 26px 0;}
+#ip1 .ip1_left .ip1_leftcon h1{font-size: 23px;font-weight: bold;text-align: center;}
+#ip1 .ip1_left .ip1_leftcon p{padding:5px 30px}
+#ip1 .ip1_left .ip1_leftimg{float: left;width: 49%;margin-right: 1%;overflow: hidden;}
+#ip1 .ip1_left .ip1_leftimg img{width: 100%;margin-bottom: -3px;}
+#ip1 .ip1_right{width: 100%;float: left;overflow: hidden;}
+#ip1 .ip1_right img{margin-bottom: -15px;}
+
+#ip2 .ip2_left{width: 100%;float:none;}
+#ip2 .ip2_left .ip2_leftcon{float: none;width: 100%;background-color: #f1f1f1;padding: 26px 0;height: 262px}
+#ip2 .ip2_left .ip2_leftcon h1{font-size: 23px;font-weight: bold;text-align: center;}
+#ip2 .ip2_left .ip2_leftcon p{padding:10px 30px}
+#ip2 .ip2_left .ip2_leftimg{margin-top: 30px;float: left;width: 50%;overflow: hidden;}
+#ip2 .ip2_left .ip2_leftimg img{width: 100%;margin-bottom: -10px}
+#ip2 .ip2_right{width: 100%;float: none;overflow: hidden;}
+#ip2 .ip2_right img{width:100%;margin-bottom: -32px;display: none;}
+
+#ip3 .ip3_left{float: left;width: 100%;height: 600px;overflow: hidden;position: relative;}
+#ip3 .ip3_left img{width: 100%;transition:all ease 1s;display: none;position: absolute;}
+#ip3 .ip3_left>div>div{color: #fff;display: none;bottom:-200px;
+	width: 100%;height:300px;background-color: rgba(0, 0, 0, 0.5);z-index: 99;position: absolute;
+}
+#ip3 .ip3_left .float{font-size: 15px;}
+#ip3 .ip3_left .float p{
+	margin:10px 30px;
+}
+#ip3 .ip3_left .float ul{margin:20px 30px;float: left;}
+#ip3 .ip3_left .float ul h1{font-size: 20px;font-weight: bolder;}
+#ip3 .ip3_right{display: none;float: right;width: 24%;background-image: url(../../images/product_images/prozh_tab_tbg.png);
+background-repeat: no-repeat;background-size: cover;color: #fff;}
+#ip3 .ip3_right ul li{height: 120px;line-height: 110px;text-align: center;font-size: 23px;font-weight: bolder;transition:all ease .5s}
+#ip3 .ip3_right ul li:hover{background-color: #008cd6}
